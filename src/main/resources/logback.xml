@@ -1,6 +1,7 @@
 <configuration scan="true">
 
     <property name="LOG_DIR" value="logs" />
+    <shutdownHook class="ch.qos.logback.core.hook.DelayingShutdownHook"/>
 
     <appender name="FILE"  class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_DIR}/fizzbuzz.log</file>
@@ -28,9 +29,20 @@
         </layout>
     </appender>
 
+
+    <appender name="LogzioLogbackAppender" class="io.logz.logback.LogzioLogbackAppender">
+        <token>myrZEkjWCFfarBkQFeCzmBXiBfJjkYbc</token>
+        <logzioUrl>https://listener.logz.io:8071</logzioUrl>
+        <logzioType>myType</logzioType>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+
     <root level="info">
         <appender-ref ref="FILE" />
         <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="LogzioLogbackAppender"/>
     </root>
 
 </configuration>
