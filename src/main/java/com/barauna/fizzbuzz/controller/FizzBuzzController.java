@@ -1,6 +1,7 @@
 package com.barauna.fizzbuzz.controller;
 
 import com.barauna.fizzbuzz.business.FizzBuzzBusiness;
+import com.barauna.fizzbuzz.exception.FizzBuzzException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,11 @@ public class FizzBuzzController {
 
     @GetMapping("/play/{number}")
     public String play(@PathVariable Integer number) {
-        return fizzBuzzBusiness.play(number);
+        try {
+            return fizzBuzzBusiness.play(number);
+        } catch (FizzBuzzException e) {
+            return "Erro ao calcular Rizzbuzz";
+        }
     }
 
     @GetMapping("/logs")

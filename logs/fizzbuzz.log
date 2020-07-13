@@ -123,3 +123,47 @@
 2020-07-12 00:24:25 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "12.5"]
 2020-07-12 00:24:45 [http-nio-8080-exec-4] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 0
 2020-07-12 00:24:45 [http-nio-8080-exec-4] ERROR c.b.f.business.FizzBuzzBusiness - Erro ao calcular o fizbuzz do numero 0
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero -1
+2020-07-13 00:42:38 [main] ERROR c.b.f.business.FizzBuzzBusiness - Erro ao calcular o fizbuzz do numero -1
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 5
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 6 : 1, 2, Fizz, 4, Buzz
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 0
+2020-07-13 00:42:38 [main] ERROR c.b.f.business.FizzBuzzBusiness - Erro ao calcular o fizbuzz do numero 0
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 3
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 4 : 1, 2, Fizz
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 15
+2020-07-13 00:42:38 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 16 : 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero -1
+2020-07-13 00:44:00 [main] ERROR c.b.f.business.FizzBuzzBusiness - Erro ao calcular o fizbuzz do numero -1
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 5
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 6 : 1, 2, Fizz, 4, Buzz
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 0
+2020-07-13 00:44:00 [main] ERROR c.b.f.business.FizzBuzzBusiness - Erro ao calcular o fizbuzz do numero 0
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 3
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 4 : 1, 2, Fizz
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 15
+2020-07-13 00:44:00 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 16 : 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero -1
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 5
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 6 : 1, 2, Fizz, 4, Buzz
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 0
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 3
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 4 : 1, 2, Fizz
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 15
+2020-07-13 00:46:56 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 16 : 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero -1
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 5
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 6 : 1, 2, Fizz, 4, Buzz
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 0
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 3
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 4 : 1, 2, Fizz
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 15
+2020-07-13 00:47:16 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 16 : 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero -1
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 5
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 5 : 1, 2, Fizz, 4, Buzz
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 0
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 3
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 3 : 1, 2, Fizz
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculando o fizbuzz do numero 15
+2020-07-13 00:59:26 [main] INFO  c.b.f.business.FizzBuzzBusiness - Calculado o fizbuzz do numero 15 : 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz
